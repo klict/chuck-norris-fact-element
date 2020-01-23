@@ -1,17 +1,17 @@
-# Chuck-norris-component;
+# Chuck-norris-fact-element;
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
 
 ## Demo
 
-[Check it live!](http://my-user.github.io/my-repo)
+[Check it live!](https://klict.github.io/chuck-norris-fact-element)
 
 ## Install
 
 Install the component using [NPM](http://bower.io/):
 
 ```sh
-$ npm install chuck-norris-component --save
+$ npm install chuck-norris-fact-elemen --save
 ```
 
 ## Usage
@@ -26,12 +26,12 @@ $ npm install chuck-norris-component --save
 2. Import custom element:
 
     ```html
-    <script type="module" src="node_modules/chuck-norris-component/components/chuck-norris-fact.js"></script>
+    <script type="module" src="node_modules/chuck-norris-fact-element/chuck-norris-fact.js"></script>
     ```
 
 3. Start using it!
-    
-    Random chuck norris fact: 
+
+    Random chuck norris fact:
     ```html
         <chuck-norris-fact></chuck-norris-fact>
     ```
@@ -39,14 +39,14 @@ $ npm install chuck-norris-component --save
     ```html
         <chuck-norris-fact category="animal"></chuck-norris-fact>
     ```
-    
+
 
 ## Options
 
 ### Category
-Options: animal, career, celebrity, dev, explicit, fashion, food, history, 
+Options: animal, career, celebrity, dev, explicit, fashion, food, history,
          money, movie, music, political, religion, science, sport, travel,
-         
+
 Description: Used to retrieve categorized chuck norris facts.
 
 ## Development
