@@ -6,7 +6,6 @@ export class ChuckNorrisFact extends HTMLElement {
         // If you define a constructor, always call super() first!
         // This is specific to CE and required by the spec.
         super();
-        this.category = null;
     }
 
     async connectedCallback() {
