@@ -61,7 +61,7 @@ export class ChuckNorrisFact extends HTMLElement {
     }
 
     getChuckNorrisFact() {
-        return this.category ? chuckNorrisApi.getJokeFromCategory(this.category) : chuckNorrisApi.getRandomJoke();
+        return this.category ? chuckNorrisApi.getCategorizedFact(this.category) : chuckNorrisApi.getRandomFact();
     }
 }
 

@@ -17,10 +17,10 @@ export const chuckNorrisApi = {
             httpRequest.send();
         });
     },
-    getRandomJoke() {
+    getRandomFact() {
         return this.sendRequest('https://api.chucknorris.io/jokes/random');
     },
-    getJokeFromCategory(category) {
+    getCategorizedFact(category) {
         return this.sendRequest(`https://api.chucknorris.io/jokes/random?category=${category}`);
     }
 };
