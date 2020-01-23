@@ -1,4 +1,4 @@
-import {chuckNorrisApi} from 'utils/chuck-norris-api.js';
+import {chuckNorrisApi} from './utils/chuck-norris-api.js';
 
 export class ChuckNorrisFact extends HTMLElement {
 
