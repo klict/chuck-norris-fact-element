@@ -1,0 +1,21 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "chuck-norris-fact",
+      "attributes": [
+        {
+          "name": "category",
+          "type": "string"
+        }
+      ],
+      "properties": [
+        {
+          "name": "category",
+          "attribute": "category",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
