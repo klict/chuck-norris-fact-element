@@ -12,21 +12,25 @@ export class ChuckNorrisFact extends HTMLElement {
         try {
             const response = await this.getChuckNorrisFact();
 
-            this.innerHTML = `
-        <style>
-            :host(.container){
-              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-              transition: 0.3s;
-              width:fit-content;
-            }
-            :host(.container) p{
-              float:right;
-            }
-        </style>
-        <div class="container">
-            <img src="assets/icon.png" alt="Chuck norris icon" height= "50" width= "50"/>
-            <p>${response.value}</p>
-        </div>`;
+            const shadowRoot = this.attachShadow({mode: 'open'});
+
+            shadowRoot.innerHTML = `
+                <style>
+                    .container{
+                      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                      transition: 0.3s;
+                      width:fit-content;
+                    }
+                    .container p{
+                      float:right;
+                    
+                </style>
+                
+                <div class="container">
+                    <img src="assets/icon.png" alt="Chuck norris icon" height= "50" width= "50"/>
+                    <p>${response.value}</p>
+                </div>
+            `;
 
         } catch (e) {
             console.error(e);
