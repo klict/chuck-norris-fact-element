@@ -17,18 +17,16 @@ export class ChuckNorrisFact extends HTMLElement {
             shadowRoot.innerHTML = `
                 <style>
                     .container{
-                      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                      box-shadow: 1px 8px 30px 13px rgba(0,0,0,0.2);
+                      padding:20px;
+                      border-radius: 15px;
                       transition: 0.3s;
                       width:fit-content;
                     }
-                    .container p{
-                      float:right;
-                    
                 </style>
                 
                 <div class="container">
-                    <img src="assets/icon.png" alt="Chuck norris icon" height= "50" width= "50"/>
-                    <p>${response.value}</p>
+                    <strong>Chuck Norris Fact:</strong> ${response.value}
                 </div>
             `;
 
