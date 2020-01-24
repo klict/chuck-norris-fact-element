@@ -2,8 +2,8 @@
   "name": "chuck-norris-fact-element",
   "version": "1.0.0",
   "description": "A web component that shows categorized or random chuck norris fact.",
-  "main": "components/chuck-norris-fact.js",
-  "module": "components/chuck-norris-fact.js",
+  "main": "chuck-norris-fact.js",
+  "module": "chuck-norris-fact.js",
   "type": "module",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "url": "https://github.com/klict/chuck-norris-fact-element/issues"
   },
   "homepage": "https://github.com/klict/chuck-norris-fact-element#readme",
-  "dependencies": {
+  "devDependencies": {
     "@webcomponents/custom-elements": "^1.3.2"
   }
 }

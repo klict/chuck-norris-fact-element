@@ -1,5 +1,5 @@
 # Chuck-norris-facts-element
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/klict/chuck-norris-facts-element)
 
 
 ## Demo
@@ -11,7 +11,7 @@
 Install the component using [NPM](http://npmjs.com/):
 
 ```sh
-$ npm install chuck-norris-fact-elemen --save
+$ npm install chuck-norris-fact-element --save
 ```
 
 ## Usage
