@@ -1,7 +1,7 @@
 {
   "name": "chuck-norris-fact-element",
   "version": "1.0.0",
-  "description": "A web component that shows categorized or random chuck norris fact.",
+  "description": "A custom element that shows categorized or random chuck norris fact.",
   "main": "chuck-norris-fact.js",
   "module": "chuck-norris-fact.js",
   "type": "module",
